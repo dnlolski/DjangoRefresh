@@ -1,0 +1,35 @@
+{
+  "name": "django_refresh",
+  "version": "1.0.0",
+  "description": "Django refreshment project with some devops exercises",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack --mode development ./django_refresh/frontend/src/index.js --output ./django_refresh/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./django_refresh/frontend/src/index.js --output ./django_refresh/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnlolski/DjangoRefresh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnlolski/DjangoRefresh/issues"
+  },
+  "homepage": "https://github.com/dnlolski/DjangoRefresh#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
