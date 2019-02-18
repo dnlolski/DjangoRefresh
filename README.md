@@ -1,2 +1,2 @@
 # DjangoRefresh
-Django refreshment project with some devops exercices 
+Django refreshment project with react/redux elements
